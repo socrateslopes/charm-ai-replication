@@ -165,8 +165,8 @@ verdicts and agreed with 14 (`checks/check2-spotcheck.csv`).
 ## S4. Answer key
 
 The answer key for Task B is the set of patterns and concepts the participants
-recognized as present (15, of which Ubiquitous Language is not a catalog
-entry; 42 mentions), the patterns they suggested as refactoring targets (10
+recognized as present (13 patterns and two related concepts, Repositories and
+Ubiquitous Language, the second not a catalog entry; 42 mentions), the patterns they suggested as refactoring targets (10
 patterns, 28 mentions), and the three categories of problems. A re-check of
 the interview transcripts after the runs added Event Backbone (one
 participant) to both sets, a second mention of Repositories, and a third
