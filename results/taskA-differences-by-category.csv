@@ -1,0 +1,65 @@
+service,question,kind,category,count
+agents-commissions,Q3,extra,platform or infrastructure,2
+agents-commissions,Q4,extra,platform or infrastructure,1
+agents-commissions,Q5,extra,other: not in the questionnaire,2
+agents-commissions,Q5,extra,platform or infrastructure,1
+agents-commissions,Q5,missed,other: not in the questionnaire,1
+agents-commissions,Q6,extra,other: not in the questionnaire,1
+agents-commissions,Q6,extra,"possibly unused, legacy or test",1
+agents-commissions,Q6,missed,other: not in the questionnaire,5
+agents-commissions,Q7,extra,other: not in the questionnaire,1
+agents-commissions,Q7,extra,platform or infrastructure,1
+agents-commissions,Q9,extra,platform or infrastructure,2
+bank-interface,Q3,extra,other: not in the questionnaire,1
+bank-interface,Q3,extra,platform or infrastructure,1
+bank-interface,Q3,extra (possibly unused),"possibly unused, legacy or test",11
+bank-interface,Q4,extra,granularity or boundary,4
+bank-interface,Q4,extra,platform or infrastructure,1
+bank-interface,Q5,extra,granularity or boundary,4
+bank-interface,Q5,extra,platform or infrastructure,1
+bank-interface,Q6,extra,granularity or boundary,4
+bank-interface,Q6,extra,"possibly unused, legacy or test",1
+bank-interface,Q7,extra,other: not in the questionnaire,1
+bank-interface,Q7,extra,platform or infrastructure,1
+bank-interface,Q7,extra,"possibly unused, legacy or test",2
+bank-interface,Q9,extra,granularity or boundary,1
+bank-interface,Q9,extra,other: not in the questionnaire,1
+bank-interface,Q9,extra,platform or infrastructure,4
+bank-interface,Q9,missed,other: not in the questionnaire,1
+credit-card-processor,Q3,extra (possibly unused),"possibly unused, legacy or test",2
+credit-card-processor,Q4,extra,other: not in the questionnaire,8
+credit-card-processor,Q4,extra,platform or infrastructure,3
+credit-card-processor,Q5,extra,granularity or boundary,2
+credit-card-processor,Q5,extra,other: not in the questionnaire,3
+credit-card-processor,Q6,extra,other: not in the questionnaire,3
+credit-card-processor,Q6,extra,"possibly unused, legacy or test",1
+credit-card-processor,Q7,extra,other: not in the questionnaire,2
+credit-card-processor,Q9,extra,granularity or boundary,1
+credit-card-processor,Q9,extra,other: not in the questionnaire,3
+credit-card-processor,Q9,extra,platform or infrastructure,1
+payin-processor,Q3,extra,naming or method mismatch,1
+payin-processor,Q3,extra,"possibly unused, legacy or test",1
+payin-processor,Q3,extra (possibly unused),"possibly unused, legacy or test",9
+payin-processor,Q3,missed,naming or method mismatch,1
+payin-processor,Q4,extra,naming or method mismatch,4
+payin-processor,Q4,extra,other: not in the questionnaire,1
+payin-processor,Q4,missed,naming or method mismatch,1
+payin-processor,Q5,extra,other: not in the questionnaire,3
+payin-processor,Q5,extra,platform or infrastructure,1
+payin-processor,Q5,missed,granularity or boundary,1
+payin-processor,Q6,extra,"possibly unused, legacy or test",2
+payin-processor,Q7,extra,"possibly unused, legacy or test",1
+payin-processor,Q7,missed,other: not in the questionnaire,1
+payin-processor,Q9,extra,granularity or boundary,1
+payin-processor,Q9,extra,other: not in the questionnaire,1
+payin-processor,Q9,extra,platform or infrastructure,4
+payout-processor,Q3,extra,platform or infrastructure,1
+payout-processor,Q3,extra,"possibly unused, legacy or test",3
+payout-processor,Q4,extra,platform or infrastructure,2
+payout-processor,Q5,extra,granularity or boundary,2
+payout-processor,Q5,extra,platform or infrastructure,1
+payout-processor,Q5,missed,other: not in the questionnaire,1
+payout-processor,Q6,extra,"possibly unused, legacy or test",1
+payout-processor,Q7,extra,other: not in the questionnaire,1
+payout-processor,Q9,extra,granularity or boundary,1
+payout-processor,Q9,extra,platform or infrastructure,3

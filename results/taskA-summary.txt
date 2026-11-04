@@ -1,0 +1,27 @@
+Pair level against the reconciled characterization (micro-averaged):
+   developer differs from reconciled: credit-card-processor sync: depends on payin-processor | 
+  sync: depends on       n= 12 agent R=1.00 P=0.48 (extra 13) | developers R=0.92 P=1.00
+  sync: invoked by       n= 28 agent R=0.75 P=0.64 (extra 12) | developers R=1.00 P=1.00
+  async: consumed by     n= 12 agent R=0.83 P=0.45 (extra 12) | developers R=1.00 P=1.00
+  async: consumes from   n=  8 agent R=0.88 P=0.70 (extra  3) | developers R=1.00 P=1.00
+  data sources           n= 12 agent R=0.92 P=0.52 (extra 10) | developers R=1.00 P=1.00
+  all                    n= 72 agent R=0.85 P=0.55 | developers R=0.99 P=1.00
+
+Item level against the questionnaires (micro-averaged):
+  Q3 endpoints         questionnaire=118 agent=149 matched=117 P=0.79 R=0.99 F1=0.88
+  Q4 sync calls        questionnaire= 56 agent= 79 matched= 55 P=0.70 R=0.98 F1=0.81
+  Q5 topics            questionnaire= 54 agent= 71 matched= 51 P=0.72 R=0.94 F1=0.82
+  Q6 topics            questionnaire= 55 agent= 64 matched= 50 P=0.78 R=0.91 F1=0.84
+  Topics (Q5+Q6)       questionnaire=109 agent=135 matched=101 P=0.75 R=0.93 F1=0.83
+  Q7 data sources      questionnaire= 12 agent= 21 matched= 11 P=0.52 R=0.92 F1=0.67
+  Q9 components        questionnaire= 13 agent= 35 matched= 12 P=0.34 R=0.92 F1=0.50
+
+Items that differ from the questionnaires, by category:
+  extra  granularity or boundary             20
+  extra  naming or method mismatch           5
+  extra  other: not in the questionnaire     32
+  extra  platform or infrastructure          31
+  extra  possibly unused, legacy or test     35
+  missed granularity or boundary             1
+  missed naming or method mismatch           2
+  missed other: not in the questionnaire     9

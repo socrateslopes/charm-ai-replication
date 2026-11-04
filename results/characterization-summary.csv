@@ -1,0 +1,6 @@
+service,operations,data_sources,shared_data_sources,sync_depends_on_internal,sync_depends_on_external,sync_invoked_by_internal,sync_invoked_by_external,async_consumes_from_internal,async_consumes_from_external,async_consumed_by_internal,async_consumed_by_external
+payin-processor,31,3,1,1,1,1,7,4,1,5,5
+credit-card-processor,30,3,0,1,1,1,5,0,2,0,0
+agents-commissions,30,1,0,1,2,0,8,1,2,0,3
+bank-interface,14,3,1,0,2,2,3,1,0,3,1
+payout-processor,13,2,0,1,2,0,2,1,1,2,1

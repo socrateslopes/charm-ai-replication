@@ -1,0 +1,46 @@
+service,dimension,n_questionnaire,n_agent,matched,precision,recall,f1
+payin-processor,Q3 endpoints,31,41,30,0.73,0.97,0.83
+payin-processor,Q4 sync calls,25,29,24,0.83,0.96,0.89
+payin-processor,Q5 topics,15,18,14,0.78,0.93,0.85
+payin-processor,Q6 topics,17,19,17,0.89,1.00,0.94
+payin-processor,Topics (Q5+Q6),32,37,31,0.84,0.97,0.90
+payin-processor,Q7 data sources,3,3,2,0.67,0.67,0.67
+payin-processor,Q9 components,5,11,5,0.45,1.00,0.62
+payin-processor,Size (operations),31,41,32,,,
+payin-processor,Time (min),,20,,,,
+credit-card-processor,Q3 endpoints,30,32,30,0.94,1.00,0.97
+credit-card-processor,Q4 sync calls,18,29,18,0.62,1.00,0.77
+credit-card-processor,Q5 topics,14,19,14,0.74,1.00,0.85
+credit-card-processor,Q6 topics,17,21,17,0.81,1.00,0.89
+credit-card-processor,Topics (Q5+Q6),31,40,31,0.78,1.00,0.87
+credit-card-processor,Q7 data sources,3,5,3,0.60,1.00,0.75
+credit-card-processor,Q9 components,0,5,0,0.00,,
+credit-card-processor,Size (operations),30,32,26,,,
+credit-card-processor,Time (min),,19,,,,
+agents-commissions,Q3 endpoints,30,32,30,0.94,1.00,0.97
+agents-commissions,Q4 sync calls,5,6,5,0.83,1.00,0.91
+agents-commissions,Q5 topics,16,18,15,0.83,0.94,0.88
+agents-commissions,Q6 topics,14,11,9,0.82,0.64,0.72
+agents-commissions,Topics (Q5+Q6),30,29,24,0.83,0.80,0.81
+agents-commissions,Q7 data sources,1,3,1,0.33,1.00,0.50
+agents-commissions,Q9 components,2,4,2,0.50,1.00,0.67
+agents-commissions,Size (operations),30,32,31,,,
+agents-commissions,Time (min),,12,,,,
+bank-interface,Q3 endpoints,14,27,14,0.52,1.00,0.68
+bank-interface,Q4 sync calls,3,8,3,0.38,1.00,0.55
+bank-interface,Q5 topics,4,9,4,0.44,1.00,0.62
+bank-interface,Q6 topics,2,7,2,0.29,1.00,0.44
+bank-interface,Topics (Q5+Q6),6,16,6,0.38,1.00,0.55
+bank-interface,Q7 data sources,3,7,3,0.43,1.00,0.60
+bank-interface,Q9 components,5,10,4,0.40,0.80,0.53
+bank-interface,Size (operations),14,27,14,,,
+bank-interface,Time (min),,20,,,,
+payout-processor,Q3 endpoints,13,17,13,0.76,1.00,0.87
+payout-processor,Q4 sync calls,5,7,5,0.71,1.00,0.83
+payout-processor,Q5 topics,5,7,4,0.57,0.80,0.67
+payout-processor,Q6 topics,5,6,5,0.83,1.00,0.91
+payout-processor,Topics (Q5+Q6),10,13,9,0.69,0.90,0.78
+payout-processor,Q7 data sources,2,3,2,0.67,1.00,0.80
+payout-processor,Q9 components,1,5,1,0.20,1.00,0.33
+payout-processor,Size (operations),13,17,17,,,
+payout-processor,Time (min),,11,,,,

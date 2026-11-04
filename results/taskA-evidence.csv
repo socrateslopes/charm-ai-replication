@@ -1,0 +1,6 @@
+service,refs,snapshot_ok,snapshot_bad,github_snapshot_commit,github_other_commit,web,share_snapshot_valid
+payin-processor,316,284,0,17,15,0,1.00
+credit-card-processor,317,280,0,20,17,0,1.00
+agents-commissions,232,206,2,14,10,0,0.99
+bank-interface,269,254,1,4,10,0,1.00
+payout-processor,187,165,0,22,0,0,1.00

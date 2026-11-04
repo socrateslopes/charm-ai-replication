@@ -1,0 +1,38 @@
+condition,kind,item
+B0,"present, not in answer key",Domain Event
+B0,"present, not in answer key",Service Orchestrator
+B0,"present in answer key, not found",Dispatcher
+B0,"present in answer key, not found",Event
+B0,"present in answer key, not found",Event Sourcing
+B0,"present in answer key, not found",Model Around the Domain
+B0,"present in answer key, not found",Polyglot Development
+B0,"present in answer key, not found",Repositories
+B0,"present in answer key, not found",Ubiquitous Language
+B0,"recommended, not suggested by participants",Context Map
+B0,"recommended, not suggested by participants",Dispatcher
+B0,"recommended, not suggested by participants",Self-Managed Data Store
+B0,"suggested by participants, not recommended",Bounded Context
+B0,"suggested by participants, not recommended",Event
+B0,"suggested by participants, not recommended",Event Backbone
+B0,"suggested by participants, not recommended",Event Notifier
+B0,"suggested by participants, not recommended",Reactive Component
+B0,"suggested by participants, not recommended",Service Orchestrator
+B1,"present, not in answer key",Application Services
+B1,"present, not in answer key",Bounded Context
+B1,"present, not in answer key",Domain Event
+B1,"present, not in answer key",Service Orchestrator
+B1,"present in answer key, not found",Dispatcher
+B1,"present in answer key, not found",Event
+B1,"present in answer key, not found",Event Sourcing
+B1,"present in answer key, not found",Model Around the Domain
+B1,"present in answer key, not found",Ubiquitous Language
+B1,"recommended, not suggested by participants",Adapter Microservice
+B1,"recommended, not suggested by participants",Context Map
+B1,"recommended, not suggested by participants",Dispatcher
+B1,"recommended, not suggested by participants",Self-Managed Data Store
+B1,"suggested by participants, not recommended",Anti-Corruption Layer
+B1,"suggested by participants, not recommended",Bounded Context
+B1,"suggested by participants, not recommended",Event
+B1,"suggested by participants, not recommended",Event Backbone
+B1,"suggested by participants, not recommended",Event Notifier
+B1,"suggested by participants, not recommended",Service Orchestrator

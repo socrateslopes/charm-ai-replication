@@ -1,0 +1,26 @@
+service,dimension,n_reconciled,agent_p,agent_r,agent_f1,dev_p,dev_r,dev_f1,n_agent_missed,n_agent_extra,n_dev_missed,n_dev_extra
+payin-processor,sync: depends on,2,1.00,1.00,1.00,1.00,1.00,1.00,0,0,0,0
+payin-processor,sync: invoked by,7,0.60,0.86,0.71,1.00,1.00,1.00,1,4,0,0
+payin-processor,async: consumed by,5,0.57,0.80,0.67,1.00,1.00,1.00,1,3,0,0
+payin-processor,async: consumes from,1,1.00,1.00,1.00,1.00,1.00,1.00,0,0,0,0
+payin-processor,data sources,3,0.67,0.67,0.67,1.00,1.00,1.00,1,1,0,0
+credit-card-processor,sync: depends on,2,0.18,1.00,0.31,1.00,0.50,0.67,0,9,1,0
+credit-card-processor,sync: invoked by,6,0.60,1.00,0.75,1.00,1.00,1.00,0,4,0,0
+credit-card-processor,async: consumed by,0,0.00,,,,,,0,1,0,0
+credit-card-processor,async: consumes from,2,0.67,1.00,0.80,1.00,1.00,1.00,0,1,0,0
+credit-card-processor,data sources,3,0.60,1.00,0.75,1.00,1.00,1.00,0,2,0,0
+agents-commissions,sync: depends on,3,0.75,1.00,0.86,1.00,1.00,1.00,0,1,0,0
+agents-commissions,sync: invoked by,8,0.43,0.38,0.40,1.00,1.00,1.00,5,4,0,0
+agents-commissions,async: consumed by,3,0.33,0.67,0.44,1.00,1.00,1.00,1,4,0,0
+agents-commissions,async: consumes from,3,0.60,1.00,0.75,1.00,1.00,1.00,0,2,0,0
+agents-commissions,data sources,1,0.33,1.00,0.50,1.00,1.00,1.00,0,2,0,0
+bank-interface,sync: depends on,2,0.67,1.00,0.80,1.00,1.00,1.00,0,1,0,0
+bank-interface,sync: invoked by,5,1.00,0.80,0.89,1.00,1.00,1.00,1,0,0,0
+bank-interface,async: consumed by,3,0.50,1.00,0.67,1.00,1.00,1.00,0,3,0,0
+bank-interface,async: consumes from,0,,,,,,,0,0,0,0
+bank-interface,data sources,3,0.43,1.00,0.60,1.00,1.00,1.00,0,4,0,0
+payout-processor,sync: depends on,3,0.60,1.00,0.75,1.00,1.00,1.00,0,2,0,0
+payout-processor,sync: invoked by,2,1.00,1.00,1.00,1.00,1.00,1.00,0,0,0,0
+payout-processor,async: consumed by,1,0.50,1.00,0.67,1.00,1.00,1.00,0,1,0,0
+payout-processor,async: consumes from,2,1.00,0.50,0.67,1.00,1.00,1.00,1,0,0,0
+payout-processor,data sources,2,0.67,1.00,0.80,1.00,1.00,1.00,0,1,0,0

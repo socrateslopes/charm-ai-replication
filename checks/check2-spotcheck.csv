@@ -1,0 +1,16 @@
+drawback_id,pattern,claude_verdict,answer,your_verdict,note
+B1-R3-D1,Context Map,yes,agree,yes,
+B1-R5-D4,Event Choreography,partly,agree,partly,
+B1-R8-D3,Dispatcher,no,agree,no,
+B1-R7-D4,Domain Microservice,yes,agree,yes,
+B1-R6-D4,Domain Microservice,partly,agree,partly,
+B1-R2-D2,Adapter Microservice,yes,agree,yes,
+B1-R2-D5,Adapter Microservice,yes,agree,yes,
+B0-R4-D3,Event API,no,agree,no,
+B1-R1-D6,Reactive Component,partly,disagree,no,"Fallbacks dont mean that the code is reactive per se, but might be executing expected behavior for errors."
+B0-R2-D2,Anti-Corruption Layer,partly,agree,partly,
+B1-R4-D1,Event API,yes,agree,yes,
+B1-R6-D2,Domain Microservice,no,agree,no,
+B1-R7-D2,Domain Microservice,partly,agree,partly,
+B1-R1-D3,Reactive Component,no,agree,no,
+B1-R3-D5,Context Map,no,agree,no,
