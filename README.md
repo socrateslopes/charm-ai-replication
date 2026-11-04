@@ -33,6 +33,7 @@ of the original study:
 | `scoring/` | Scoring scripts for Tasks A and B and their documentation |
 | `checks/` | Researcher checks: citation sample, drawbacks against the catalog's source book, spot-check of the drawback verdicts, patterns reported beyond the answer key |
 | `results/` | Aggregate results: scores per service and dimension, relation-level comparison, error categories, evidence validity, Task B metrics |
+| `SUPPLEMENT.md` | Details referred to in the article as Supplement S1 to S4 |
 
 Services carry the fictitious names used in the article: Payin Processor,
 Credit Card Processor (Pay In), Bank Interface, Agents Commissions and Payout
