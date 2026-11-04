@@ -17,8 +17,7 @@ execution steps in `guides/`. In summary:
   catalog as shown to participants; B1 also received the developers'
   questionnaire comments and the interview excerpts up to the point where the
   catalog was introduced (`instruments/`).
-- **Isolation.** The runs used a computer account never used for this
-  research. The study repository was downloaded with a sparse checkout, so
+- **Isolation.** The runs used a computer never used for this research. The study repository was downloaded with a sparse checkout, so
   that the answer keys and the paper were never on that computer, and each
   chat started in a workspace that held only the inputs of its condition.
 - **Agent configuration.** Cursor 3.22.12 in agent mode, one model selected
@@ -147,14 +146,12 @@ the synchronous calls to external providers.
 
 | Metric | B0 | B1 | B1, first run (discarded) |
 |---|---|---|---|
+| Patterns present: precision | 8/10 | 10/14 | 10/13 |
+| Patterns present: recall | 8/15 | 10/15 | 10/15 |
 | Patterns present: recall weighted by participants | 27/42 | 32/42 | 32/42 |
 | Suggested patterns recommended | 4/10 | 4/10 | 7/10 |
 | ... suggested by at least two participants | 4/8 | 4/8 | 7/8 |
 | Distinct recommended patterns that participants suggested | 4/7 | 4/8 | – |
-
-With the answer key registered before the runs (`results/taskB-metrics-preregistered-key.csv`):
-precision 7/10 (B0) and 9/14 (B1), recall 7/14 and 9/14, suggested patterns
-recommended 4/9 and 4/9.
 
 **Drawbacks against the source book** (`checks/check2-drawbacks.csv`). Each
 of the 59 drawbacks was classified as stated in the book in substance, partly
@@ -167,11 +164,16 @@ verdicts and agreed with 14 (`checks/check2-spotcheck.csv`).
 
 ## S4. Answer key
 
-The answer key for Task B is the set of patterns the participants recognized
-as present (15 entries, 42 mentions) and suggested as refactoring targets (10
+The answer key for Task B is the set of patterns and concepts the participants
+recognized as present (15, of which Ubiquitous Language is not a catalog
+entry; 42 mentions), the patterns they suggested as refactoring targets (10
 patterns, 28 mentions), and the three categories of problems. A re-check of
 the interview transcripts after the runs added Event Backbone (one
 participant) to both sets, a second mention of Repositories, and a third
 suggestion of Event Notifier (protocol Section 11, deviation 12). The article
-reports the revised key and, in S3, the results against the key registered
-before the runs.
+reports the results against this revised key.
+
+Against the key registered before the runs (14 recognized, 40 mentions; 9
+suggested, 26 mentions; `results/taskB-metrics-preregistered-key.csv`):
+precision 7/10 (B0) and 9/14 (B1), recall 7/14 and 9/14, and suggested
+patterns recommended 4/9 and 4/9.
